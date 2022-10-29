@@ -1,13 +1,15 @@
-
-
 <script>
 export default {
-name: "BackButton"
+  name: "BackButton"
 }
 </script>
 
 <template>
-$END$
+
+  <div>
+    <NuxtLink to="/">Back to Home</NuxtLink>
+  </div>
+
 </template>
 
 <style scoped>
